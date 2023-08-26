@@ -18,7 +18,6 @@ public class TV {
 		this.canal = 1;
 		this.volumen = 1;
 		this.precio = 500;
-		numTV++;
 		
 	}
 		
@@ -46,6 +45,10 @@ public class TV {
 	public void setControl(Control con) { control = con; }
 	
 	public Control getControl() {return control;}
+	
+	public void setNumTV(int num) { numTV = num; }
+	
+	public int getNumTV() {return numTV;}
 	
 	
 	public void turnOn() {
