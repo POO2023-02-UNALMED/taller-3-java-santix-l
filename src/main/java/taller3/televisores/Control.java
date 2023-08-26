@@ -41,7 +41,7 @@ public class Control {
 		
 		this.tv = tv;
 		
-		tv.setControl(this);
+		this.tv.setControl(this);
 	}
 
 }
